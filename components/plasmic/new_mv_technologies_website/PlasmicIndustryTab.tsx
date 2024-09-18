@@ -292,7 +292,7 @@ function PlasmicIndustryTab__RenderFunc(props: {
 
             $steps["goToWhyVidyayatan"] = true
               ? (() => {
-                  const actionArgs = { destination: `/why-vidyayatan` };
+                  const actionArgs = { destination: `/why-mv-technologies` };
                   return (({ destination }) => {
                     if (
                       typeof destination === "string" &&

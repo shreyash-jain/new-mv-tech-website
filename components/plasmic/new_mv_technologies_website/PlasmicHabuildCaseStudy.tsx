@@ -296,7 +296,7 @@ function PlasmicHabuildCaseStudy__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Vidyayatan Infotech transformed HABUILD's habit-building platform through advanced automation, personalized member experiences, and the creation of a skilled development team. Our custom software solutions streamlined operations, enhanced user engagement, and enabled rapid global growth."
+                      "MV Technologies transformed HABUILD's habit-building platform through advanced automation, personalized member experiences, and the creation of a skilled development team. Our custom software solutions streamlined operations, enhanced user engagement, and enabled rapid global growth."
                     }
                   </div>
                 </Stack__>
@@ -2281,7 +2281,7 @@ function PlasmicHabuildCaseStudy__RenderFunc(props: {
                 )}
               >
                 {
-                  "Vidyayatan Technologies's innovative software solutions and technical expertise were instrumental in driving HABUILD\u2019s exponential growth. Through a comprehensive strategy that included automation, tailored development, team-building, and robust infrastructure, Vidyayatan Infotech enabled HABUILD to optimize operations, elevate the member experience, and successfully scale to meet its growing ambitions."
+                  "MV Technologies's innovative software solutions and technical expertise were instrumental in driving HABUILD\u2019s exponential growth. Through a comprehensive strategy that included automation, tailored development, team-building, and robust infrastructure, MV Technologies enabled HABUILD to optimize operations, elevate the member experience, and successfully scale to meet its growing ambitions."
                 }
               </div>
             </Stack__>

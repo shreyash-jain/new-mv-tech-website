@@ -753,16 +753,7 @@ function PlasmicContactPage__RenderFunc(props: {
                           sty.text__sCnj
                         )}
                       >
-                        {"anneli@mvtechnologies.co.za"}
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__hGuAl
-                        )}
-                      >
-                        {"shreyash@mvtechnologies.co.za"}
+                        {"info@mvtechnologies.co.za"}
                       </div>
                     </div>
                   </Stack__>
@@ -856,16 +847,7 @@ function PlasmicContactPage__RenderFunc(props: {
                           sty.text__lvc9
                         )}
                       >
-                        {"anneli@mvtechnologies.co.za"}
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__qp3A8
-                        )}
-                      >
-                        {"shreyash@mvtechnologies.co.za"}
+                        {"info@mvtechnologies.co.za"}
                       </div>
                     </div>
                   </Stack__>

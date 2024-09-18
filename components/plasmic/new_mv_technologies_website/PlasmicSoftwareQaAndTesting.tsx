@@ -289,7 +289,7 @@ function PlasmicSoftwareQaAndTesting__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Enhance your software quality with Vidyayatan Technologies' expert QA and QC testers. Our specialists ensure seamless performance and reliability for growing companies and enterprises."
+                      "Enhance your software quality with MV Technologies' expert QA and QC testers. Our specialists ensure seamless performance and reliability for growing companies and enterprises."
                     }
                   </div>
                 </Stack__>
@@ -799,7 +799,7 @@ function PlasmicSoftwareQaAndTesting__RenderFunc(props: {
                 )}
               >
                 {
-                  "At Vidyayatan Technologies, we specialize in delivering top-tier Quality Assurance, Quality Control, and Testing services. Our skilled QA team ensures your software meets the highest standards at every stage. Count on us to provide dependable, high-performance QA testers that consistently exceed expectations."
+                  "At MV Technologies, we specialize in delivering top-tier Quality Assurance, Quality Control, and Testing services. Our skilled QA team ensures your software meets the highest standards at every stage. Count on us to provide dependable, high-performance QA testers that consistently exceed expectations."
                 }
               </div>
             </Stack__>

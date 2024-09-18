@@ -414,6 +414,58 @@ function PlasmicNavHeader__RenderFunc(props: {
                     "updateCompanyPageOpen"
                   ];
                 }
+
+                $steps["updateServicesPageOpen"] = true
+                  ? (() => {
+                      const actionArgs = {
+                        vgroup: "servicesPageOpen",
+                        operation: 6
+                      };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateServicesPageOpen"] != null &&
+                  typeof $steps["updateServicesPageOpen"] === "object" &&
+                  typeof $steps["updateServicesPageOpen"].then === "function"
+                ) {
+                  $steps["updateServicesPageOpen"] = await $steps[
+                    "updateServicesPageOpen"
+                  ];
+                }
+
+                $steps["updateIndustryPageOpen"] = true
+                  ? (() => {
+                      const actionArgs = {
+                        vgroup: "industryPageOpen",
+                        operation: 6
+                      };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateIndustryPageOpen"] != null &&
+                  typeof $steps["updateIndustryPageOpen"] === "object" &&
+                  typeof $steps["updateIndustryPageOpen"].then === "function"
+                ) {
+                  $steps["updateIndustryPageOpen"] = await $steps[
+                    "updateIndustryPageOpen"
+                  ];
+                }
               }}
             >
               {"Company"}
@@ -454,6 +506,58 @@ function PlasmicNavHeader__RenderFunc(props: {
                 ) {
                   $steps["updateServicesPageOpen"] = await $steps[
                     "updateServicesPageOpen"
+                  ];
+                }
+
+                $steps["updateCompanyPageOpen"] = true
+                  ? (() => {
+                      const actionArgs = {
+                        vgroup: "companyPageOpen",
+                        operation: 6
+                      };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateCompanyPageOpen"] != null &&
+                  typeof $steps["updateCompanyPageOpen"] === "object" &&
+                  typeof $steps["updateCompanyPageOpen"].then === "function"
+                ) {
+                  $steps["updateCompanyPageOpen"] = await $steps[
+                    "updateCompanyPageOpen"
+                  ];
+                }
+
+                $steps["updateIndustryPageOpen"] = true
+                  ? (() => {
+                      const actionArgs = {
+                        vgroup: "industryPageOpen",
+                        operation: 6
+                      };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateIndustryPageOpen"] != null &&
+                  typeof $steps["updateIndustryPageOpen"] === "object" &&
+                  typeof $steps["updateIndustryPageOpen"].then === "function"
+                ) {
+                  $steps["updateIndustryPageOpen"] = await $steps[
+                    "updateIndustryPageOpen"
                   ];
                 }
               }}
@@ -531,6 +635,58 @@ function PlasmicNavHeader__RenderFunc(props: {
                 ) {
                   $steps["updateIndustryPageOpen"] = await $steps[
                     "updateIndustryPageOpen"
+                  ];
+                }
+
+                $steps["updateCompanyPageOpen"] = true
+                  ? (() => {
+                      const actionArgs = {
+                        vgroup: "companyPageOpen",
+                        operation: 6
+                      };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateCompanyPageOpen"] != null &&
+                  typeof $steps["updateCompanyPageOpen"] === "object" &&
+                  typeof $steps["updateCompanyPageOpen"].then === "function"
+                ) {
+                  $steps["updateCompanyPageOpen"] = await $steps[
+                    "updateCompanyPageOpen"
+                  ];
+                }
+
+                $steps["updateServicesPageOpen"] = true
+                  ? (() => {
+                      const actionArgs = {
+                        vgroup: "servicesPageOpen",
+                        operation: 6
+                      };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateServicesPageOpen"] != null &&
+                  typeof $steps["updateServicesPageOpen"] === "object" &&
+                  typeof $steps["updateServicesPageOpen"].then === "function"
+                ) {
+                  $steps["updateServicesPageOpen"] = await $steps[
+                    "updateServicesPageOpen"
                   ];
                 }
               }}

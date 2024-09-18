@@ -574,7 +574,7 @@ function PlasmicWebAppDevelopment__RenderFunc(props: {
                 )}
               >
                 {
-                  "At Vidyayatan Technologies, our specialized development teams offer superior expertise and a profound understanding of sector-specific needs for every next-generation web app project."
+                  "At MV Technologies, our specialized development teams offer superior expertise and a profound understanding of sector-specific needs for every next-generation web app project."
                 }
               </div>
             </Stack__>

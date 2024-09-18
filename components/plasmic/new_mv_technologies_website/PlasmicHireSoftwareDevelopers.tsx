@@ -561,7 +561,7 @@ function PlasmicHireSoftwareDevelopers__RenderFunc(props: {
                   )}
                 >
                   {
-                    "Vidyayatan Technologies\u2019 expert Agile Scrum Teams deliver high-performance solutions for funded start-ups and innovative greenfield projects, catering to businesses of all sizes, from small start-ups to large enterprises. The benefits of outsourcing are immense and extend across the board, ensuring efficiency and success for any organization."
+                    "MV Technologies\u2019 expert Agile Scrum Teams deliver high-performance solutions for funded start-ups and innovative greenfield projects, catering to businesses of all sizes, from small start-ups to large enterprises. The benefits of outsourcing are immense and extend across the board, ensuring efficiency and success for any organization."
                   }
                 </div>
                 <Stack__

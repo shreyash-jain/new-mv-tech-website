@@ -185,7 +185,7 @@
 .img___9Ivkr {
   object-fit: cover;
   max-width: 100%;
-  width: 364px;
+  width: 493px;
 }
 .img___9Ivkr > picture > img {
   object-fit: cover;
@@ -213,8 +213,8 @@
 .text__d117V {
   font-size: 48px;
   line-height: 1;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
   text-align: left;
   text-transform: none;
@@ -232,6 +232,9 @@
   .text__d117V {
     font-size: 32px;
   }
+}
+.span {
+  font-weight: 700;
 }
 .text__rsgP {
   font-size: 16px;
@@ -299,6 +302,10 @@
   color: var(--token-iQUmYDsMxK6D);
 }
 .scrollParallax:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.tilt__bECu:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }

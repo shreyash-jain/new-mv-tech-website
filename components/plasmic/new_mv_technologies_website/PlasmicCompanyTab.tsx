@@ -274,7 +274,7 @@ function PlasmicCompanyTab__RenderFunc(props: {
                 ? true
                 : undefined
             }
-            slot={"India's premier software development company"}
+            slot={"South Africa's premier software development company"}
           >
             {"About Us"}
           </SubTab>
@@ -292,7 +292,7 @@ function PlasmicCompanyTab__RenderFunc(props: {
 
             $steps["goToWhyVidyayatan"] = true
               ? (() => {
-                  const actionArgs = { destination: `/why-vidyayatan` };
+                  const actionArgs = { destination: `/why-mv-technologies` };
                   return (({ destination }) => {
                     if (
                       typeof destination === "string" &&
@@ -329,11 +329,9 @@ function PlasmicCompanyTab__RenderFunc(props: {
                 ? true
                 : undefined
             }
-            slot={
-              "Discover how Vidyayatan Technologies can elevate your business"
-            }
+            slot={"Discover how MV Technologies can elevate your business"}
           >
-            {"Why Vidyayatan?"}
+            {"Why MV Technologies?"}
           </SubTab>
         </div>
       </div>

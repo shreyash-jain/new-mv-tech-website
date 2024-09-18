@@ -664,7 +664,7 @@ function PlasmicNavFooter__RenderFunc(props: {
                 "tab21",
                 "isActive"
               ])}
-              pageRoute={`/why-vidyayatan`}
+              pageRoute={`/why-mv-technologies`}
             >
               <div
                 className={classNames(
@@ -677,7 +677,9 @@ function PlasmicNavFooter__RenderFunc(props: {
 
                   $steps["goToWhyVidyayatan"] = true
                     ? (() => {
-                        const actionArgs = { destination: `/why-vidyayatan` };
+                        const actionArgs = {
+                          destination: `/why-mv-technologies`
+                        };
                         return (({ destination }) => {
                           if (
                             typeof destination === "string" &&

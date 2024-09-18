@@ -1232,20 +1232,6 @@
     font-size: 14px;
   }
 }
-.text__hGuAl {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  text-align: left;
-  color: var(--token-jy1LdMmfq4Ph);
-  font-family: "Lato", sans-serif;
-  min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .text__hGuAl {
-    font-size: 14px;
-  }
-}
 .column__yaloW {
   display: flex;
   flex-direction: column;
@@ -1491,20 +1477,6 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__lvc9 {
-    font-size: 14px;
-  }
-}
-.text__qp3A8 {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  text-align: left;
-  color: var(--token-jy1LdMmfq4Ph);
-  font-family: "Lato", sans-serif;
-  min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .text__qp3A8 {
     font-size: 14px;
   }
 }

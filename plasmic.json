@@ -5785,20 +5785,6 @@
           "componentType": "component"
         },
         {
-          "id": "5L-Km_M5zR3l",
-          "name": "WhyVidyayatan",
-          "type": "managed",
-          "projectId": "qg9BUJrNtisePZMs8FM4BQ",
-          "renderModuleFilePath": "plasmic/new_mv_technologies_website/PlasmicWhyVidyayatan.tsx",
-          "importSpec": {
-            "modulePath": "../pages/why-vidyayatan.tsx"
-          },
-          "cssFilePath": "plasmic/new_mv_technologies_website/PlasmicWhyVidyayatan.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/why-vidyayatan"
-        },
-        {
           "id": "SbeiUKrhPUYq",
           "name": "ContactPage",
           "type": "managed",
@@ -6202,6 +6188,20 @@
           "cssFilePath": "plasmic/new_mv_technologies_website/PlasmicProductOverview.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "5L-Km_M5zR3l",
+          "name": "WhyMvTechnologies",
+          "type": "managed",
+          "projectId": "qg9BUJrNtisePZMs8FM4BQ",
+          "renderModuleFilePath": "plasmic/new_mv_technologies_website/PlasmicWhyMvTechnologies.tsx",
+          "importSpec": {
+            "modulePath": "../pages/why-mv-technologies.tsx"
+          },
+          "cssFilePath": "plasmic/new_mv_technologies_website/PlasmicWhyMvTechnologies.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/why-mv-technologies"
         }
       ],
       "icons": [
