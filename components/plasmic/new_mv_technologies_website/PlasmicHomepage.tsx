@@ -432,6 +432,11 @@ function PlasmicHomepage__RenderFunc(props: {
               >
                 <Tilt
                   className={classNames("__wab_instance", sty.tilt__bECu)}
+                  tiltEnable={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? false
+                      : undefined
+                  }
                   trackOnWindow={false}
                 >
                   <div
