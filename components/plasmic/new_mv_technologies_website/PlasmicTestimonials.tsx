@@ -548,9 +548,9 @@ function PlasmicTestimonials__RenderFunc(props: {
                   sty.text__sLlDm
                 )}
               >
-                {
-                  "Working with Vidyayatan Technologies has been significantly beneficial for us. The best part about working with them is that they make sure to understand our unique challenges in South Africa for Farm Security and then work consistently to deliver to those needs. Their truly qualified team works with precision to understand our challenges and make sure we are able to overcome them. And we are absolutely thrilled to have them as our technology partner."
-                }
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Working with MV Technologies has been significantly beneficial for us. The best part about working with them is that they make sure to understand our unique challenges in South Africa for Farm Security and then work consistently to deliver to those needs. Their truly qualified team works with precision to understand our challenges and make sure we are able to overcome them. And we are absolutely thrilled to have them as our technology partner."
+                  : "Working with MV Technologies has been significantly beneficial for us. The best part about working with them is that they make sure to understand our unique challenges in South Africa for Farm Security and then work consistently to deliver to those needs. Their truly qualified team works with precision to understand our challenges and make sure we are able to overcome them. And we are absolutely thrilled to have them as our technology partner."}
               </div>
             </TestimonialCard>
             <TestimonialCard
@@ -791,9 +791,9 @@ function PlasmicTestimonials__RenderFunc(props: {
                   sty.text__apvua
                 )}
               >
-                {
-                  "We are very pleased with the site mapping tool developed by Vidyayatan Technologies for our manufacturing operations. Their SaaS solution for mapping sites, buildings, and floors has significantly streamlined our workflow and enhanced efficiency. The Vidyayatan team demonstrated exceptional expertise, understanding our specific needs, and delivering a user-friendly, tailored solution that exceeded our expectations and greatly improved our facility management."
-                }
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "We are very pleased with the site mapping tool developed by MV Technologies for our manufacturing operations. Their SaaS solution for mapping sites, buildings, and floors has significantly streamlined our workflow and enhanced efficiency. The MV team demonstrated exceptional expertise, understanding our specific needs, and delivering a user-friendly, tailored solution that exceeded our expectations and greatly improved our facility management."
+                  : "We are very pleased with the site mapping tool developed by MV Technologies for our manufacturing operations. Their SaaS solution for mapping sites, buildings, and floors has significantly streamlined our workflow and enhanced efficiency. The MV team demonstrated exceptional expertise, understanding our specific needs, and delivering a user-friendly, tailored solution that exceeded our expectations and greatly improved our facility management."}
               </div>
             </TestimonialCard>
             <TestimonialCard
@@ -1037,9 +1037,9 @@ function PlasmicTestimonials__RenderFunc(props: {
                   sty.text__nlB
                 )}
               >
-                {
-                  "We are extremely pleased with the farm management solution developed by Vidyayatan Technologies. Their expertise in crop planning, pest management, and block mapping has significantly improved our operations. The tools have optimized planting schedules, enhanced pest control, and bettered resource allocation. We highly recommend Vidyayatan Technologies for their innovative solutions and outstanding support."
-                }
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "We are extremely pleased with the farm management solution developed by MV Technologies. Their expertise in crop planning, pest management, and block mapping has significantly improved our operations. The tools have optimized planting schedules, enhanced pest control, and bettered resource allocation. We highly recommend MV Technologies for their innovative solutions and outstanding support."
+                  : "We are extremely pleased with the farm management solution developed by MV Technologies. Their expertise in crop planning, pest management, and block mapping has significantly improved our operations. The tools have optimized planting schedules, enhanced pest control, and bettered resource allocation. We highly recommend MV Technologies for their innovative solutions and outstanding support."}
               </div>
             </TestimonialCard>
             <TestimonialCard
@@ -1284,9 +1284,9 @@ function PlasmicTestimonials__RenderFunc(props: {
                   sty.text___2W5Sf
                 )}
               >
-                {
-                  "Vidyayatan Technology\u2019s solutions have significantly improved our ability to manage and monitor field activities, they help us gain real-time data that improves our decision-making processes. This has allowed our farm managers to streamline operations, optimize resource use, and increase farm\u2019s overall productivity. With their solutions Field Visitors now have access to accurate and up-to-date information, which made their tasks more efficient."
-                }
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "MV Technology\u2019s solutions have significantly improved our ability to manage and monitor field activities, they help us gain real-time data that improves our decision-making processes. This has allowed our farm managers to streamline operations, optimize resource use, and increase farm\u2019s overall productivity. With their solutions Field Visitors now have access to accurate and up-to-date information, which made their tasks more efficient."
+                  : "MV Technology\u2019s solutions have significantly improved our ability to manage and monitor field activities, they help us gain real-time data that improves our decision-making processes. This has allowed our farm managers to streamline operations, optimize resource use, and increase farm\u2019s overall productivity. With their solutions Field Visitors now have access to accurate and up-to-date information, which made their tasks more efficient."}
               </div>
             </TestimonialCard>
           </SliderWrapper>

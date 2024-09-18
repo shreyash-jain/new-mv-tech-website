@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  background: linear-gradient(#fff1e5bf, #fff1e5bf),
+  background: linear-gradient(#e5f4ffbf, #e5f4ffbf),
     url("https://images.squarespace-cdn.com/content/v1/5ca28b6c34c4e276b1e6efdc/1567338274582-V6V9R741A6IIIJREYX4K/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/image-asset.jpeg?format=2500w")
       left 50% top 50% / cover repeat;
   width: 100%;
@@ -1558,6 +1558,26 @@
   .text__qNdPc {
     font-size: 14px;
   }
+}
+.tab5:global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.svg___6WUCd {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.text__jyLkQ {
+  padding-right: 0px;
+  color: var(--token-_2v5eoGJBfUF);
+}
+.svg___85Gxc {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
 }
 .ilustations {
   display: flex;

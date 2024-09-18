@@ -533,7 +533,7 @@ function PlasmicAboutUsPage__RenderFunc(props: {
                   sty.text__vkONr
                 )}
               >
-                {"Meet the Visionary"}
+                {"Meet the Visionaries"}
               </div>
             </div>
             <Stack__
@@ -553,7 +553,7 @@ function PlasmicAboutUsPage__RenderFunc(props: {
                   displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/new_mv_technologies_website/images/founderImagePng.png",
+                    src: "/plasmic/new_mv_technologies_website/images/image83.png",
                     fullWidth: 4800,
                     fullHeight: 4800,
                     aspectRatio: undefined
@@ -573,7 +573,7 @@ function PlasmicAboutUsPage__RenderFunc(props: {
                       sty.text__cmlm
                     )}
                   >
-                    {"Shreyash Jain"}
+                    {"Anneli Nel"}
                   </div>
                   <div
                     className={classNames(
@@ -582,7 +582,7 @@ function PlasmicAboutUsPage__RenderFunc(props: {
                       sty.text__bRpC
                     )}
                   >
-                    {"Founder and CEO "}
+                    {"CMO and CFO"}
                   </div>
                 </div>
                 <div
@@ -593,7 +593,71 @@ function PlasmicAboutUsPage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "He is a techie entrepreneur and a graduate from IIT BHU Varanasi. He has worked on backend development of distributed and highly scalable systems, as well as frontend and middleware. He has also been consulting and building architecture and applications for companies like Samsung Research, Bharatpe, Programming Pathshala, Sortit and Habuild. He is passionate about creating impactful and innovative solutions using technology."
+                    "Meet Anneli Nel, the powerhouse behind MV technologies! As both CMO and CFO, she\u2019s the ultimate multitasker, turning big ideas into reality while keeping the numbers in check. With a knack for motivating the team and a sharp mind for finance, Anneli makes sure everything runs smoothly\u2014from boardroom decisions to balancing the books. She\u2019s the brains of the operation, always ready to transform talk into action and inspire everyone around her."
+                  }
+                </div>
+              </Stack__>
+            </Stack__>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.columns___8E6Yy)}
+            >
+              <div className={classNames(projectcss.all, sty.column__nMcs5)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__typxG)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/new_mv_technologies_website/images/founderImagePng.png",
+                    fullWidth: 4800,
+                    fullHeight: 4800,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column___4Jqtj)}
+              >
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___4U4Bf)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___8Dea8
+                    )}
+                  >
+                    {"Shreyash Jain"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__nRqin
+                    )}
+                  >
+                    {"CEO and CTO"}
+                  </div>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__nxT0Z
+                  )}
+                >
+                  {
+                    "Meet Shreyash Jain, the tech mastermind behind MV Technologies! He\u2019s the go-to guy for all things tech, building the software from scratch based on our sometimes vague and evolving ideas\u2014and turning them into a fully functional system. Shreyash is the ultimate code writer and problem solver, with an incredible knack for making complex concepts look easy. Whether it's developing new features or providing top-notch tech support, Shreyash is the brilliant mind that keeps our client's platform running smoothly."
                   }
                 </div>
               </Stack__>

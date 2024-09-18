@@ -113,8 +113,8 @@ export type PlasmicContactPage__OverridesType = {
   textInput4?: Flex__<typeof TextInput>;
   button2?: Flex__<typeof Button2>;
   ourOffice?: Flex__<"section">;
-  q1?: Flex__<"div">;
   q14?: Flex__<"div">;
+  q1?: Flex__<"div">;
   navFooter?: Flex__<typeof NavFooter>;
   navHeader?: Flex__<typeof NavHeader>;
 };
@@ -265,9 +265,9 @@ function PlasmicContactPage__RenderFunc(props: {
                     displayWidth={"240px"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/new_mv_technologies_website/images/image2.png",
-                      fullWidth: 1074,
-                      fullHeight: 124,
+                      src: "/plasmic/new_mv_technologies_website/images/image79.png",
+                      fullWidth: 3532,
+                      fullHeight: 720,
                       aspectRatio: undefined
                     }}
                   />
@@ -668,96 +668,6 @@ function PlasmicContactPage__RenderFunc(props: {
               <Stack__
                 as={"div"}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.column__yaloW)}
-              >
-                <Stack__
-                  as={"div"}
-                  data-plasmic-name={"q1"}
-                  data-plasmic-override={overrides.q1}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.q1)}
-                >
-                  {renderPlasmicSlot({
-                    defaultContents: (
-                      <Frame32Icon
-                        className={classNames(projectcss.all, sty.svg__icr42)}
-                        role={"img"}
-                      />
-                    ),
-
-                    value: args.q12
-                  })}
-                </Stack__>
-                <div className={classNames(projectcss.all, sty.freeBox__tYdww)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__llLtj
-                    )}
-                  >
-                    {"Bhopal, India"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__u72F1
-                    )}
-                  >
-                    {"A-15, Pragati Parisar, Depot Square, Bhopal"}
-                  </div>
-                </div>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__lZtYd)}
-                >
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox___2ZNp2)}
-                  >
-                    <Frame9Icon
-                      className={classNames(projectcss.all, sty.svg__oDZf4)}
-                      role={"img"}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__tdbiW
-                      )}
-                    >
-                      {"+91  9425677707"}
-                    </div>
-                  </Stack__>
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__tUaU)}
-                  >
-                    <Frame19Icon
-                      className={classNames(projectcss.all, sty.svg__pq7Zw)}
-                      role={"img"}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__fWjyk
-                      )}
-                    >
-                      {"hello@vidyayatan.com"}
-                    </div>
-                  </Stack__>
-                </Stack__>
-              </Stack__>
-              <Stack__
-                as={"div"}
-                hasGap={true}
                 className={classNames(projectcss.all, sty.column__zC3G3)}
               >
                 <Stack__
@@ -834,13 +744,129 @@ function PlasmicContactPage__RenderFunc(props: {
                     />
 
                     <div
+                      className={classNames(projectcss.all, sty.freeBox__kLwl)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sCnj
+                        )}
+                      >
+                        {"anneli@mvtechnologies.co.za"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__hGuAl
+                        )}
+                      >
+                        {"shreyash@mvtechnologies.co.za"}
+                      </div>
+                    </div>
+                  </Stack__>
+                </Stack__>
+              </Stack__>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__yaloW)}
+              >
+                <Stack__
+                  as={"div"}
+                  data-plasmic-name={"q1"}
+                  data-plasmic-override={overrides.q1}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.q1)}
+                >
+                  {renderPlasmicSlot({
+                    defaultContents: (
+                      <Frame32Icon
+                        className={classNames(projectcss.all, sty.svg__icr42)}
+                        role={"img"}
+                      />
+                    ),
+
+                    value: args.q12
+                  })}
+                </Stack__>
+                <div className={classNames(projectcss.all, sty.freeBox__tYdww)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__llLtj
+                    )}
+                  >
+                    {"Bhopal, India"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__u72F1
+                    )}
+                  >
+                    {"A-15, Pragati Parisar, Depot Square, Bhopal"}
+                  </div>
+                </div>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__lZtYd)}
+                >
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___2ZNp2)}
+                  >
+                    <Frame9Icon
+                      className={classNames(projectcss.all, sty.svg__oDZf4)}
+                      role={"img"}
+                    />
+
+                    <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__sCnj
+                        sty.text__tdbiW
                       )}
                     >
-                      {"hello@vidyayatan.com"}
+                      {"+91  9425677707"}
+                    </div>
+                  </Stack__>
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__awCo9)}
+                  >
+                    <Frame19Icon
+                      className={classNames(projectcss.all, sty.svg__dwHlc)}
+                      role={"img"}
+                    />
+
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__qNcL8)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__lvc9
+                        )}
+                      >
+                        {"anneli@mvtechnologies.co.za"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__qp3A8
+                        )}
+                      >
+                        {"shreyash@mvtechnologies.co.za"}
+                      </div>
                     </div>
                   </Stack__>
                 </Stack__>
@@ -889,8 +915,8 @@ const PlasmicDescendants = {
     "textInput4",
     "button2",
     "ourOffice",
-    "q1",
     "q14",
+    "q1",
     "navFooter",
     "navHeader"
   ],
@@ -902,9 +928,9 @@ const PlasmicDescendants = {
   textInput5: ["textInput5"],
   textInput4: ["textInput4"],
   button2: ["button2"],
-  ourOffice: ["ourOffice", "q1", "q14"],
-  q1: ["q1"],
+  ourOffice: ["ourOffice", "q14", "q1"],
   q14: ["q14"],
+  q1: ["q1"],
   navFooter: ["navFooter"],
   navHeader: ["navHeader"]
 } as const;
@@ -922,8 +948,8 @@ type NodeDefaultElementType = {
   textInput4: typeof TextInput;
   button2: typeof Button2;
   ourOffice: "section";
-  q1: "div";
   q14: "div";
+  q1: "div";
   navFooter: typeof NavFooter;
   navHeader: typeof NavHeader;
 };
@@ -1024,8 +1050,8 @@ export const PlasmicContactPage = Object.assign(
     textInput4: makeNodeComponent("textInput4"),
     button2: makeNodeComponent("button2"),
     ourOffice: makeNodeComponent("ourOffice"),
-    q1: makeNodeComponent("q1"),
     q14: makeNodeComponent("q14"),
+    q1: makeNodeComponent("q1"),
     navFooter: makeNodeComponent("navFooter"),
     navHeader: makeNodeComponent("navHeader"),
 

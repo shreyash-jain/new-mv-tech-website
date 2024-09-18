@@ -139,6 +139,7 @@ export type PlasmicHomepage__OverridesType = {
   technologicalPartnership?: Flex__<"div">;
   text11?: Flex__<"div">;
   technologicalPartnership3?: Flex__<"div">;
+  tab5?: Flex__<typeof Tab>;
   ilustations?: Flex__<"div">;
   technologicalPartnerships?: Flex__<"div">;
   laborLinkVisual3?: Flex__<"div">;
@@ -1074,6 +1075,55 @@ function PlasmicHomepage__RenderFunc(props: {
                     "We dive into your business, brainstorm solutions, gather feedback, and optimize infrastructure to boost efficiency."
                   }
                 </div>
+                <Tab
+                  data-plasmic-name={"tab5"}
+                  data-plasmic-override={overrides.tab5}
+                  className={classNames("__wab_instance", sty.tab5)}
+                  onButtonClick2={async event => {
+                    const $steps = {};
+
+                    $steps["goToHireSoftwareDevelopers"] = true
+                      ? (() => {
+                          const actionArgs = {
+                            destination: `/hire-software-developers`
+                          };
+                          return (({ destination }) => {
+                            if (
+                              typeof destination === "string" &&
+                              destination.startsWith("#")
+                            ) {
+                              document
+                                .getElementById(destination.substr(1))
+                                .scrollIntoView({ behavior: "smooth" });
+                            } else {
+                              __nextRouter?.push(destination);
+                            }
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      $steps["goToHireSoftwareDevelopers"] != null &&
+                      typeof $steps["goToHireSoftwareDevelopers"] ===
+                        "object" &&
+                      typeof $steps["goToHireSoftwareDevelopers"].then ===
+                        "function"
+                    ) {
+                      $steps["goToHireSoftwareDevelopers"] = await $steps[
+                        "goToHireSoftwareDevelopers"
+                      ];
+                    }
+                  }}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__jyLkQ
+                    )}
+                  >
+                    {"Know more ..."}
+                  </div>
+                </Tab>
               </Stack__>
               <Stack__
                 as={"div"}
@@ -1751,6 +1801,7 @@ const PlasmicDescendants = {
     "technologicalPartnership",
     "text11",
     "technologicalPartnership3",
+    "tab5",
     "ilustations",
     "technologicalPartnerships",
     "laborLinkVisual3",
@@ -1791,6 +1842,7 @@ const PlasmicDescendants = {
     "technologicalPartnership",
     "text11",
     "technologicalPartnership3",
+    "tab5",
     "ilustations",
     "technologicalPartnerships",
     "laborLinkVisual3",
@@ -1813,6 +1865,7 @@ const PlasmicDescendants = {
     "technologicalPartnership",
     "text11",
     "technologicalPartnership3",
+    "tab5",
     "ilustations",
     "technologicalPartnerships",
     "laborLinkVisual3",
@@ -1840,10 +1893,12 @@ const PlasmicDescendants = {
     "technologicalPartnership",
     "text11",
     "technologicalPartnership3",
+    "tab5",
     "ilustations"
   ],
-  text11: ["text11", "technologicalPartnership3"],
+  text11: ["text11", "technologicalPartnership3", "tab5"],
   technologicalPartnership3: ["technologicalPartnership3"],
+  tab5: ["tab5"],
   ilustations: ["ilustations"],
   technologicalPartnerships: [
     "technologicalPartnerships",
@@ -1900,6 +1955,7 @@ type NodeDefaultElementType = {
   technologicalPartnership: "div";
   text11: "div";
   technologicalPartnership3: "div";
+  tab5: typeof Tab;
   ilustations: "div";
   technologicalPartnerships: "div";
   laborLinkVisual3: "div";
@@ -2025,6 +2081,7 @@ export const PlasmicHomepage = Object.assign(
     technologicalPartnership: makeNodeComponent("technologicalPartnership"),
     text11: makeNodeComponent("text11"),
     technologicalPartnership3: makeNodeComponent("technologicalPartnership3"),
+    tab5: makeNodeComponent("tab5"),
     ilustations: makeNodeComponent("ilustations"),
     technologicalPartnerships: makeNodeComponent("technologicalPartnerships"),
     laborLinkVisual3: makeNodeComponent("laborLinkVisual3"),

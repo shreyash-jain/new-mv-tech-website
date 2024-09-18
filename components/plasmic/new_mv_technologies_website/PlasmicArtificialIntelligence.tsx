@@ -287,7 +287,7 @@ function PlasmicArtificialIntelligence__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Looking for expert AI engineers? Vidyayatan Technologies offers top-tier talent to help your company harness the power of artificial intelligence."
+                      "Looking for expert AI engineers? MV Technologies offers top-tier talent to help your company harness the power of artificial intelligence."
                     }
                   </div>
                 </Stack__>
@@ -590,7 +590,7 @@ function PlasmicArtificialIntelligence__RenderFunc(props: {
                 )}
               >
                 {
-                  "Elevate your business with strategic AI consulting, expert engineering, and seamless integration from Vidyayatan. Stay ahead in the fast-evolving world of artificial intelligence."
+                  "Elevate your business with strategic AI consulting, expert engineering, and seamless integration from MV Technologies. Stay ahead in the fast-evolving world of artificial intelligence."
                 }
               </div>
             </Stack__>
@@ -1388,7 +1388,7 @@ function PlasmicArtificialIntelligence__RenderFunc(props: {
                   sty.text__bz9Jb
                 )}
               >
-                {"AI Solutions by Vidyayatan Technologies"}
+                {"AI Solutions by MV Technologies"}
               </div>
               <div
                 className={classNames(

@@ -78,10 +78,10 @@ import sty from "./PlasmicFaqSection.module.css"; // plasmic-import: BSnSueyvgk6
 import Frame17Icon from "./icons/PlasmicIcon__Frame17"; // plasmic-import: qCObakUSkcsr/icon
 import Frame14Icon from "./icons/PlasmicIcon__Frame14"; // plasmic-import: xTAdjC1CrvhS/icon
 import Frame15Icon from "./icons/PlasmicIcon__Frame15"; // plasmic-import: YQCNU9xil-Ab/icon
+import Frame6Icon from "./icons/PlasmicIcon__Frame6"; // plasmic-import: vswdgIK_OGKH/icon
 import Frame16Icon from "./icons/PlasmicIcon__Frame16"; // plasmic-import: lTq5ZUD2xa6J/icon
 import Frame10Icon from "./icons/PlasmicIcon__Frame10"; // plasmic-import: ByXkQHEplxsY/icon
 import Frame7Icon from "./icons/PlasmicIcon__Frame7"; // plasmic-import: JxNsv4LYJBNA/icon
-import Frame6Icon from "./icons/PlasmicIcon__Frame6"; // plasmic-import: vswdgIK_OGKH/icon
 
 createPlasmicElementProxy;
 
@@ -240,7 +240,7 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "Vidyayatan Technologies is committed to transforming industries with innovative solutions. With a diverse portfolio and expertise in ERP, SaaS, and custom software development, we empower businesses to excel. Our solutions are tailored to meet specific industry needs, ensuring your success in the digital era."
+                "MV Technologies is committed to transforming industries with innovative solutions. With a diverse portfolio and expertise in ERP, SaaS, and custom software development, we empower businesses to excel. Our solutions are tailored to meet specific industry needs, ensuring your success in the digital era."
               }
             </div>
           }
@@ -252,7 +252,7 @@ function PlasmicFaqSection__RenderFunc(props: {
               sty.text__aBbZl
             )}
           >
-            {"Why should I choose Vidyayatan Technologies as my tech partner? "}
+            {"Why should I choose MV Technologies as my tech partner? "}
           </div>
         </FaqAccordian>
         <FaqAccordianMobile
@@ -260,8 +260,22 @@ function PlasmicFaqSection__RenderFunc(props: {
             "__wab_instance",
             sty.faqAccordianMobile__xlElN
           )}
-        />
-
+          slot={
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__bx3D6
+              )}
+            >
+              {
+                "MV Technologies is committed to transforming industries with innovative solutions. With a diverse portfolio and expertise in ERP, SaaS, and custom software development, we empower businesses to excel. Our solutions are tailored to meet specific industry needs, ensuring your success in the digital era."
+              }
+            </div>
+          }
+        >
+          {"Why should I choose MV Technologies as my tech partner? "}
+        </FaqAccordianMobile>
         {(hasVariant(globalVariants, "screen", "mobileOnly") ? true : false) ? (
           <FaqAccordianMobile
             className={classNames(
@@ -283,12 +297,12 @@ function PlasmicFaqSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Vidyayatan focuses on delivering high-impact solutions that streamline operations and enhance productivity. By leveraging the latest technologies and maintaining a client-centric approach, we ensure that your investment translates into measurable business growth and efficiency."
+                  "MV Technologies focuses on delivering high-impact solutions that streamline operations and enhance productivity. By leveraging the latest technologies and maintaining a client-centric approach, we ensure that your investment translates into measurable business growth and efficiency."
                 }
               </div>
             }
           >
-            {"How does Vidyayatan ensure a return on investment (ROI)?"}
+            {"How does MV Technologies ensure a return on investment (ROI)?"}
           </FaqAccordianMobile>
         ) : null}
         {(hasVariant(globalVariants, "screen", "mobileOnly") ? true : false) ? (
@@ -312,12 +326,12 @@ function PlasmicFaqSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Vidyayatan offers flexible engagement models to suit your business needs. Whether you require a dedicated team, project-based collaboration, or long-term technological partnership, we adapt to your preferred working style and timeline."
+                  "MV Technologies offers flexible engagement models to suit your business needs. Whether you require a dedicated team, project-based collaboration, or long-term technological partnership, we adapt to your preferred working style and timeline."
                 }
               </div>
             }
           >
-            {"How flexible are Vidyayatan's engagement models?"}
+            {"How flexible are MV Technologies's engagement models?"}
           </FaqAccordianMobile>
         ) : null}
         {(hasVariant(globalVariants, "screen", "mobileOnly") ? true : false) ? (
@@ -327,7 +341,7 @@ function PlasmicFaqSection__RenderFunc(props: {
               sty.faqAccordianMobile___1Vt1J
             )}
             q12={
-              <Frame15Icon
+              <Frame6Icon
                 className={classNames(projectcss.all, sty.svg__qRYu4)}
                 role={"img"}
               />
@@ -341,14 +355,20 @@ function PlasmicFaqSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Yes, Vidyayatan Technologies is equipped to support your business as it grows. Our solutions are designed to scale alongside your operations, ensuring that you have the tools and support necessary to manage increasing demands and complexities."
+                  "Yes, MV Technologies is equipped to support your business as it grows. Our solutions are designed to scale alongside your operations, ensuring that you have the tools and support necessary to manage increasing demands and complexities."
                 }
               </div>
             }
           >
-            {
-              "Can Vidyayatan Technologies support my business's scalability needs?"
-            }
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___6IDv
+              )}
+            >
+              {"Can MV Technologies support my business's scalability needs?"}
+            </div>
           </FaqAccordianMobile>
         ) : null}
         {(hasVariant(globalVariants, "screen", "mobileOnly") ? true : false) ? (
@@ -372,7 +392,7 @@ function PlasmicFaqSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Absolutely. At Vidyayatan, you will have a dedicated Account Manager who will be your primary point of contact, ensuring seamless communication and addressing any queries or concerns promptly."
+                  "Absolutely. At MV Technologies, you will have a dedicated Account Manager who will be your primary point of contact, ensuring seamless communication and addressing any queries or concerns promptly."
                 }
               </div>
             }
@@ -384,7 +404,7 @@ function PlasmicFaqSection__RenderFunc(props: {
                 sty.text___8AAvl
               )}
             >
-              {"Do I have a dedicated point of contact at Vidyayatan?"}
+              {"Do I have a dedicated point of contact at MV Technologies?"}
             </div>
           </FaqAccordianMobile>
         ) : null}
@@ -446,7 +466,7 @@ function PlasmicFaqSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Security is a top priority at Vidyayatan. Our solutions are built with robust security protocols to protect your data and ensure compliance with industry standards, safeguarding your business from external threats."
+                  "Security is a top priority at MV Technologies. Our solutions are built with robust security protocols to protect your data and ensure compliance with industry standards, safeguarding your business from external threats."
                 }
               </div>
             }
@@ -459,7 +479,7 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "How does Vidyayatan ensure the security of its software solutions?"
+                "How does MV Technologies ensure the security of its software solutions?"
               }
             </div>
           </FaqAccordianMobile>
@@ -486,14 +506,14 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "Vidyayatan focuses on delivering high-impact solutions that streamline operations and enhance productivity. By leveraging the latest technologies and maintaining a client-centric approach, we ensure that your investment translates into measurable business growth and efficiency."
+                "MV Technologies focuses on delivering high-impact solutions that streamline operations and enhance productivity. By leveraging the latest technologies and maintaining a client-centric approach, we ensure that your investment translates into measurable business growth and efficiency."
               }
             </div>
           }
         >
           {hasVariant($state, "companyTabOptions", "companyTabOptions")
             ? "How does Vidyayatan ensure a return on investment (ROI)?"
-            : "How does Vidyayatan ensure a return on investment (ROI)?"}
+            : "How does MV Technologies ensure a return on investment (ROI)?"}
         </FaqAccordian>
         <FaqAccordian
           className={classNames("__wab_instance", sty.faqAccordian__sxKyN)}
@@ -517,14 +537,14 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "Vidyayatan offers flexible engagement models to suit your business needs. Whether you require a dedicated team, project-based collaboration, or long-term technological partnership, we adapt to your preferred working style and timeline."
+                "MV Technology offers flexible engagement models to suit your business needs. Whether you require a dedicated team, project-based collaboration, or long-term technological partnership, we adapt to your preferred working style and timeline."
               }
             </div>
           }
         >
           {hasVariant($state, "companyTabOptions", "companyTabOptions")
             ? "How does Vidyayatan ensure a return on investment (ROI)?"
-            : "How flexible are Vidyayatan's engagement models?"}
+            : "How flexible are MV Technologies's engagement models?"}
         </FaqAccordian>
         <FaqAccordian
           className={classNames("__wab_instance", sty.faqAccordian___2L5E)}
@@ -548,14 +568,14 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "Yes, Vidyayatan Technologies is equipped to support your business as it grows. Our solutions are designed to scale alongside your operations, ensuring that you have the tools and support necessary to manage increasing demands and complexities."
+                "Yes, MV Technologies is equipped to support your business as it grows. Our solutions are designed to scale alongside your operations, ensuring that you have the tools and support necessary to manage increasing demands and complexities."
               }
             </div>
           }
         >
           {hasVariant($state, "companyTabOptions", "companyTabOptions")
             ? "How does Vidyayatan ensure a return on investment (ROI)?"
-            : "Can Vidyayatan Technologies support my business's scalability needs?"}
+            : "Can MV Technologies support my business's scalability needs?"}
         </FaqAccordian>
         <FaqAccordian
           className={classNames("__wab_instance", sty.faqAccordian__xkbe1)}
@@ -579,14 +599,14 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "Absolutely. At Vidyayatan, you will have a dedicated Account Manager who will be your primary point of contact, ensuring seamless communication and addressing any queries or concerns promptly."
+                "Absolutely. At MV Technologies, you will have a dedicated Account Manager who will be your primary point of contact, ensuring seamless communication and addressing any queries or concerns promptly."
               }
             </div>
           }
         >
           {hasVariant($state, "companyTabOptions", "companyTabOptions")
             ? "How does Vidyayatan ensure a return on investment (ROI)?"
-            : "Do I have a dedicated point of contact at Vidyayatan?"}
+            : "Do I have a dedicated point of contact at MV Technologies?"}
         </FaqAccordian>
         <FaqAccordian
           className={classNames("__wab_instance", sty.faqAccordian__aorn2)}
@@ -641,14 +661,14 @@ function PlasmicFaqSection__RenderFunc(props: {
               )}
             >
               {
-                "Security is a top priority at Vidyayatan. Our solutions are built with robust security protocols to protect your data and ensure compliance with industry standards, safeguarding your business from external threats."
+                "Security is a top priority at MV Technologies. Our solutions are built with robust security protocols to protect your data and ensure compliance with industry standards, safeguarding your business from external threats."
               }
             </div>
           }
         >
           {hasVariant($state, "companyTabOptions", "companyTabOptions")
             ? "How does Vidyayatan ensure a return on investment (ROI)?"
-            : "How does Vidyayatan ensure the security of its software solutions?"}
+            : "How does MV Technologies ensure the security of its software solutions?"}
         </FaqAccordian>
       </Stack__>
     </section>

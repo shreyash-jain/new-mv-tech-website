@@ -285,7 +285,7 @@ function PlasmicDevOps__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Vidyayatan Technologies offers top-tier DevOps engineers and specialists. Our expertise is trusted by growing businesses and large enterprises for exceptional DevOps solutions."
+                      "MV Technologies offers top-tier DevOps engineers and specialists. Our expertise is trusted by growing businesses and large enterprises for exceptional DevOps solutions."
                     }
                   </div>
                 </Stack__>

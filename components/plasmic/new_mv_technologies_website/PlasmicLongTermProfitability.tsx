@@ -187,7 +187,7 @@ function PlasmicLongTermProfitability__RenderFunc(props: {
           displayWidth={"auto"}
           loading={"lazy"}
           src={{
-            src: "/plasmic/new_mv_technologies_website/images/image62.png",
+            src: "/plasmic/new_mv_technologies_website/images/image81.png",
             fullWidth: 4484,
             fullHeight: 1840,
             aspectRatio: undefined

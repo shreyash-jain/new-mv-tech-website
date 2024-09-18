@@ -205,7 +205,11 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
                 "__wab_instance",
                 sty.caseStudyCard2__tKyFz
               )}
-            />
+            >
+              {
+                "MV Technologies' Labor Link system simplifies managing farm laborers, HR, security, and finance. It offers legal support for compliance and efficiency, automating processes to boost productivity and ensure smooth operations."
+              }
+            </CaseStudyCard2>
           </Stack__>
           <Stack__
             as={"div"}
@@ -238,7 +242,7 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
               }
             >
               {
-                "Vidyayatan Infotech's software solutions and tech expertise drove HABUILD's rapid growth by streamlining operations through automation, custom development, team building, and infrastructure setup."
+                "MV Technologies's software solutions and tech expertise drove HABUILD's rapid growth by streamlining operations through automation, custom development, team building, and infrastructure setup."
               }
             </CaseStudyCard2>
           </Stack__>
@@ -310,9 +314,17 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
                 />
               }
             >
-              {
-                "Vidyayatan Infotech built a webapp for South Africa's Maroi Boerdery BK to manage farm blocks, plan seasons, track inputs, and create monthly pest calendars, streamlining their operations."
-              }
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___0HrA1
+                )}
+              >
+                {
+                  "MV Technologies built a webapp for South Africa's Maroi Boerdery BK to manage farm blocks, plan seasons, track inputs, and create monthly pest calendars, streamlining their operations."
+                }
+              </div>
             </CaseStudyCard2>
           </Stack__>
           <Stack__
@@ -353,7 +365,7 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Vidyayatan Technologies designed a SaaS mapping tool for Innowell, enabling them to map sites, buildings, floors, zones, and spaces, while tracking detailed statistics for each workstation."
+                  "MV Technologies designed a SaaS mapping tool for Innowell, enabling them to map sites, buildings, floors, zones, and spaces, while tracking detailed statistics for each workstation."
                 }
               </div>
             </CaseStudyCard2>
@@ -388,9 +400,17 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
                 />
               }
             >
-              {
-                "Vidyayatan Technologies developed a digital tool for DCM Shriram, managing 300,000 farms and 1,600 managers with real-time crop monitoring, task management, and better coordination, boosting efficiency."
-              }
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__rMcbU
+                )}
+              >
+                {
+                  "MV Technologies developed a digital tool for DCM Shriram, managing 300,000 farms and 1,600 managers with real-time crop monitoring, task management, and better coordination, boosting efficiency."
+                }
+              </div>
             </CaseStudyCard2>
           </Stack__>
         </Stack__>
@@ -429,9 +449,17 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
                 />
               }
             >
-              {
-                "Vidyayatan Technologies created a procurement system for Star Bazaar, optimizing farmer and aggregator interactions, market rates, vendor management, and yield predictions for improved efficiency and relationships."
-              }
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__jXzXg
+                )}
+              >
+                {
+                  "MV Technologies created a procurement system for Star Bazaar, optimizing farmer and aggregator interactions, market rates, vendor management, and yield predictions for improved efficiency and relationships."
+                }
+              </div>
             </CaseStudyCard2>
           </Stack__>
           <Stack__
@@ -472,7 +500,7 @@ function PlasmicCaseStudiesSection__RenderFunc(props: {
                 )}
               >
                 {
-                  "Vidyayatan Technologies developed a robust payment processing system for BharatPe, streamlining transactions, enhancing merchant management, and improving scalability with a microservices architecture, leading to faster payments and improved financial operations"
+                  "MV Technologies developed a robust payment processing system for BharatPe, streamlining transactions, enhancing merchant management, and improving scalability with a microservices architecture, leading to faster payments and improved financial operations"
                 }
               </div>
             </CaseStudyCard2>
