@@ -293,34 +293,31 @@ function PlasmicConnectWithUs__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__b9HqW
+                      sty.formField__f0Xls
                     )}
                     label={"Name"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__kAopw)}
+                      className={classNames("__wab_instance", sty.input__kjmXj)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__e2X3T
+                      sty.formField__iuokt
                     )}
                     label={"Company Name"}
                     name={"company"}
                   >
                     <AntdInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.input___8UzCt
-                      )}
+                      className={classNames("__wab_instance", sty.input__eR1Ox)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__ncn4K
+                      sty.formField__o6JgV
                     )}
                     label={"Email"}
                     name={"email"}
@@ -329,14 +326,14 @@ function PlasmicConnectWithUs__RenderFunc(props: {
                     <AntdInput
                       className={classNames(
                         "__wab_instance",
-                        sty.input___30ScL
+                        sty.input___8ESkh
                       )}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__g9Uam
+                      sty.formField__udDgY
                     )}
                     label={"Whatsapp Number"}
                     rules={[{ ruleType: "required" }]}
@@ -349,7 +346,7 @@ function PlasmicConnectWithUs__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__dVdqo
+                      sty.formField__jdHss
                     )}
                     label={"Message"}
                     name={"message"}
@@ -372,7 +369,7 @@ function PlasmicConnectWithUs__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___3Sf69
+                        sty.text__yFaSy
                       )}
                     >
                       {"Submit"}

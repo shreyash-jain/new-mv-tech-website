@@ -432,7 +432,7 @@ function PlasmicHomepage__RenderFunc(props: {
               >
                 <Tilt
                   className={classNames("__wab_instance", sty.tilt__bECu)}
-                  trackOnWindow={true}
+                  trackOnWindow={false}
                 >
                   <div
                     className={classNames(projectcss.all, sty.freeBox__qsaeW)}
