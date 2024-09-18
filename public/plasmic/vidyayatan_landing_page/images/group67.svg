@@ -1,0 +1,40 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 8">
+  <path d="M5.353 7.747H1.616A.617.617 0 011 7.129V3.145c0-.066.026-.13.073-.176L2.97 1.073A.248.248 0 013.145 1h2.208c.34 0 .615.276.615.615V7.13c0 .34-.276.618-.615.618zm-3.857-4.5V7.13a.12.12 0 00.12.122h3.737a.12.12 0 00.119-.122V1.615a.12.12 0 00-.12-.119H3.248l-1.75 1.751z" fill="url(#WWHctrvgkrFma)" stroke="url(#WWHctrvgkrFmb)" stroke-width=".5"/>
+  <path d="M2.546 3.393H1.248a.248.248 0 01-.175-.424l1.896-1.896a.248.248 0 01.423.175v1.299a.847.847 0 01-.846.846zm-.7-.496h.7a.35.35 0 00.35-.35v-.7l-1.05 1.05z" fill="url(#WWHctrvgkrFmc)" stroke="url(#WWHctrvgkrFmd)" stroke-width=".5"/>
+  <path d="M4.29 4.88H2.678a.248.248 0 110-.496h1.61a.248.248 0 110 .496z" fill="url(#WWHctrvgkrFme)" stroke="url(#WWHctrvgkrFmf)" stroke-width=".5"/>
+  <path d="M4.29 6.05H2.678a.248.248 0 110-.496h1.61a.248.248 0 110 .496z" fill="url(#WWHctrvgkrFmg)" stroke="url(#WWHctrvgkrFmh)" stroke-width=".5"/>
+  <defs>
+    <linearGradient id="WWHctrvgkrFma" x1="1" y1="4.373" x2="5.968" y2="4.373" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFmb" x1="1" y1="4.373" x2="5.968" y2="4.373" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFmc" x1="1" y1="2.196" x2="3.392" y2="2.196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFmd" x1="1" y1="2.196" x2="3.392" y2="2.196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFme" x1="2.431" y1="4.632" x2="4.537" y2="4.632" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFmf" x1="2.431" y1="4.632" x2="4.537" y2="4.632" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFmg" x1="2.431" y1="5.802" x2="4.537" y2="5.802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="WWHctrvgkrFmh" x1="2.431" y1="5.802" x2="4.537" y2="5.802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+  </defs>
+</svg>

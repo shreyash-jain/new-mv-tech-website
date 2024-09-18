@@ -1,0 +1,59 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  position: relative;
+  min-height: 0;
+  padding: 25px 8px 8px;
+}
+.freeBox__mb2J5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 48px;
+  max-width: 100%;
+  background: #000000;
+  flex-shrink: 0;
+  border-radius: 0px;
+  padding: 8px;
+}
+.freeBox__zAPy {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetChildren {
+  font-size: var(--token-U4y-WPxcTLf3);
+  font-weight: 700;
+  color: #ffffff;
+}
+.freeBox__ql4C {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3px;
+  height: auto;
+  max-width: 100%;
+  left: 31px;
+  top: -200px;
+  background: linear-gradient(
+      0deg,
+      transparent 0%,
+      #00000040 29%,
+      #00000040 71%,
+      transparent 100%
+    )
+    0% 0% / 100% 100% repeat;
+  bottom: -200px;
+}

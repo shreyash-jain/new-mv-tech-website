@@ -1,0 +1,114 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(180deg, #ffffff0d 0%, #f0f0f0cc 100%) 0% 0% / 100%
+    100% repeat;
+  position: relative;
+  border-radius: 5px;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    background: none;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    min-width: 0;
+    padding: 0px 32px;
+  }
+}
+.h1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  padding: 11px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .h1 {
+    padding-left: 0px;
+    text-align: left;
+    letter-spacing: 0px;
+    user-select: text;
+    line-height: 1;
+    padding-right: 0px;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    align-self: flex-start;
+  }
+}
+.slotTargetChildren {
+  font-size: 34px;
+  color: var(--token-RvPI6LyeIPmd);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetChildren {
+    color: var(--token-EQxz6dfLiREa);
+    text-align: left;
+  }
+}
+.freeBox__seu4O {
+  position: relative;
+  width: 209px;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__seu4O {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-width: 0;
+  }
+}
+.slotTargetSlot {
+  text-align: center;
+  color: var(--token-EQxz6dfLiREa);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot {
+    color: var(--token-EQxz6dfLiREa);
+    text-align: left;
+  }
+}
+.freeBox___8YnYi {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-right: 0px;
+  margin-top: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___8YnYi {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.img__eywak {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  margin-right: 32px;
+  width: 200px;
+  height: 200px;
+  margin-top: 0;
+  margin-left: 32px;
+  flex-shrink: 0;
+}
+.img__eywak > picture > img {
+  object-fit: cover;
+}

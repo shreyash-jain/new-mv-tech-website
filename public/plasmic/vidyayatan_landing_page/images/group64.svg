@@ -1,0 +1,76 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 23">
+  <path d="M16.183 14.5a3.385 3.385 0 00-3.374-3.375A3.385 3.385 0 009.433 14.5a3.385 3.385 0 003.376 3.375 3.385 3.385 0 003.374-3.375zm-5.624 0a2.257 2.257 0 012.25-2.25 2.257 2.257 0 012.25 2.25 2.257 2.257 0 01-2.25 2.25 2.257 2.257 0 01-2.25-2.25z" fill="url(#NyZKBipFJNCEa)" stroke="url(#NyZKBipFJNCEb)" stroke-width=".5"/>
+  <path d="M1.296 15.869c.262.131.6.037.75-.225 2.4-4.388 6.712-7.332 10.763-7.332 4.05 0 8.362 2.944 10.762 7.332.094.187.3.3.487.3a.43.43 0 00.263-.075.56.56 0 00.225-.769c-2.606-4.8-7.219-7.912-11.737-7.912-4.52 0-9.132 3.112-11.738 7.912a.564.564 0 00.225.769z" fill="url(#NyZKBipFJNCEc)" stroke="url(#NyZKBipFJNCEd)" stroke-width=".5"/>
+  <path d="M4.858 15.1a.559.559 0 00-.768-.225.559.559 0 00-.225.769c2.156 3.956 5.418 6.243 8.925 6.243 3.506 0 6.768-2.268 8.925-6.243a.559.559 0 00-.225-.769.559.559 0 00-.769.225c-1.969 3.6-4.856 5.644-7.95 5.644-3.094 0-5.944-2.063-7.913-5.644z" fill="url(#NyZKBipFJNCEe)" stroke="url(#NyZKBipFJNCEf)" stroke-width=".5"/>
+  <path d="M12.246 1.563v3.375c0 .318.244.562.563.562a.552.552 0 00.562-.563V1.563A.552.552 0 0012.808 1a.552.552 0 00-.562.563z" fill="url(#NyZKBipFJNCEg)" stroke="url(#NyZKBipFJNCEh)" stroke-width=".5"/>
+  <path d="M3.771 5.688a.56.56 0 00.037.787l1.144 1.031c.113.094.244.15.375.15.15 0 .3-.056.413-.187a.56.56 0 00-.038-.788L4.558 5.65a.56.56 0 00-.787.037z" fill="url(#NyZKBipFJNCEi)" stroke="url(#NyZKBipFJNCEj)" stroke-width=".5"/>
+  <path d="M20.852 5.669l-.994 1.012a.56.56 0 000 .788.54.54 0 00.394.168c.15 0 .3-.056.394-.168l.994-1.013a.56.56 0 000-.787.544.544 0 00-.788 0z" fill="url(#NyZKBipFJNCEk)" stroke="url(#NyZKBipFJNCEl)" stroke-width=".5"/>
+  <path d="M17.215 2.425L16.07 5.2a.566.566 0 00.3.731c.075.038.15.038.206.038a.565.565 0 00.525-.357l1.144-2.756a.567.567 0 00-.3-.731.531.531 0 00-.731.3z" fill="url(#NyZKBipFJNCEm)" stroke="url(#NyZKBipFJNCEn)" stroke-width=".5"/>
+  <path d="M7.69 2.144a.55.55 0 00-.3.731L8.533 5.65a.565.565 0 00.732.319.55.55 0 00.3-.732L8.42 2.462c-.113-.3-.45-.45-.731-.318z" fill="url(#NyZKBipFJNCEo)" stroke="url(#NyZKBipFJNCEp)" stroke-width=".5"/>
+  <defs>
+    <linearGradient id="NyZKBipFJNCEa" x1="9.433" y1="14.5" x2="16.183" y2="14.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEb" x1="9.433" y1="14.5" x2="16.183" y2="14.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEc" x1="1" y1="11.566" x2="24.617" y2="11.566" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEd" x1="1" y1="11.566" x2="24.617" y2="11.566" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEe" x1="3.794" y1="18.346" x2="21.786" y2="18.346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEf" x1="3.794" y1="18.346" x2="21.786" y2="18.346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEg" x1="12.246" y1="3.25" x2="13.371" y2="3.25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEh" x1="12.246" y1="3.25" x2="13.371" y2="3.25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEi" x1="3.627" y1="6.581" x2="5.883" y2="6.581" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEj" x1="3.627" y1="6.581" x2="5.883" y2="6.581" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEk" x1="19.697" y1="6.569" x2="21.802" y2="6.569" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEl" x1="19.697" y1="6.569" x2="21.802" y2="6.569" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEm" x1="16.031" y1="4.021" x2="18.286" y2="4.021" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEn" x1="16.031" y1="4.021" x2="18.286" y2="4.021" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEo" x1="7.342" y1="4.051" x2="9.613" y2="4.051" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="NyZKBipFJNCEp" x1="7.342" y1="4.051" x2="9.613" y2="4.051" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+  </defs>
+</svg>

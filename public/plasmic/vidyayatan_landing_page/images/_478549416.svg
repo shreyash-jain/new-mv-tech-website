@@ -1,0 +1,9 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 6">
+  <path d="M52.715 5.766H29.604a1 1 0 01-.639-.231L24.709 2H1a1 1 0 010-2h24.07a1 1 0 01.639.23l4.256 3.536h22.389L56.61.23a1 1 0 011.278 1.539l-4.535 3.766a.992.992 0 01-.639.231z" fill="url(#FWa-E-OnV74za)"/>
+  <defs>
+    <linearGradient id="FWa-E-OnV74za" x1="0" y1="2.883" x2="58.244" y2="2.883" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+  </defs>
+</svg>

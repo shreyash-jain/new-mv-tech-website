@@ -1,0 +1,45 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g clip-path="url(#sgLnBiEVTRLda)" stroke-width=".5">
+    <path d="M4.875 20.625c0 .207.168.375.375.375h1.5a.375.375 0 100-.75h-1.5a.375.375 0 00-.375.375z" fill="url(#sgLnBiEVTRLdb)" stroke="url(#sgLnBiEVTRLdc)"/>
+    <path d="M23.87 11.716l-2.626-2.25a.375.375 0 00-.619.284v.75H18a.375.375 0 00-.375.376v2.25c0 .207.168.375.375.375h2.625v.75a.376.376 0 00.62.284l2.624-2.25a.375.375 0 000-.569v0zm-2.495 1.719v-.31A.375.375 0 0021 12.75h-2.625v-1.5H21a.375.375 0 00.375-.375v-.31L23.049 12l-1.674 1.435z" fill="url(#sgLnBiEVTRLdd)" stroke="url(#sgLnBiEVTRLde)"/>
+    <path d="M15.75 8.25H12V3c0-.827-.673-1.5-1.5-1.5h-9C.673 1.5 0 2.173 0 3v18c0 .827.673 1.5 1.5 1.5h9c.827 0 1.5-.673 1.5-1.5v-5.25h3.75a.375.375 0 00.375-.375v-6.75a.375.375 0 00-.375-.375zM11.25 21c0 .413-.337.75-.75.75h-9A.751.751 0 01.75 21V3c0-.413.337-.75.75-.75h9c.413 0 .75.337.75.75v5.25H6.375V7.125a.375.375 0 10-.75 0v9.75a.375.375 0 10.75 0V15.75h4.875V21zm4.125-6H14.25c0-.62.505-1.125 1.125-1.125V15zm0-1.875c-1.034 0-1.875.84-1.875 1.875H6.375V9H13.5c0 1.034.84 1.875 1.875 1.875v2.25zm0-3c-.62 0-1.125-.505-1.125-1.125h1.125v1.125z" fill="url(#sgLnBiEVTRLdf)" stroke="url(#sgLnBiEVTRLdg)"/>
+    <path d="M6 3.75A.375.375 0 106 3a.375.375 0 000 .75z" fill="url(#sgLnBiEVTRLdh)" stroke="url(#sgLnBiEVTRLdi)"/>
+  </g>
+  <defs>
+    <linearGradient id="sgLnBiEVTRLdb" x1="4.875" y1="20.625" x2="7.125" y2="20.625" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLdc" x1="4.875" y1="20.625" x2="7.125" y2="20.625" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLdd" x1="17.625" y1="12" x2="24" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLde" x1="17.625" y1="12" x2="24" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLdf" x1="0" y1="12" x2="16.125" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLdg" x1="0" y1="12" x2="16.125" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLdh" x1="5.625" y1="3.375" x2="6.375" y2="3.375" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <linearGradient id="sgLnBiEVTRLdi" x1="5.625" y1="3.375" x2="6.375" y2="3.375" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8965"/>
+      <stop offset="1" stop-color="#FF6757"/>
+    </linearGradient>
+    <clipPath id="sgLnBiEVTRLda">
+      <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+  </defs>
+</svg>
