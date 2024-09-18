@@ -9,7 +9,6 @@
 
     import * as React from "react"
     import {hasVariant, ensureGlobalVariants} from "@plasmicapp/react-web";
-    import { CompS4W0QdYEtLMe } from "./CompS4W0QdYEtLMe";  // plasmic-import: S4W0qdYEtLMe/codeComponent
 import { ParallaxProviderWrapper } from "@plasmicpkgs/react-scroll-parallax";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
 import { CmsCredentialsProvider } from "@plasmicpkgs/plasmic-cms";
@@ -18,8 +17,7 @@ import { EmbedCss } from "@plasmicpkgs/plasmic-embed-css";
 
     export interface GlobalContextsProviderProps {
       children?: React.ReactElement;
-      scrollProviderProps?: Partial<
-           Omit<React.ComponentProps<typeof CompS4W0QdYEtLMe>, "children">>;
+     
 parallaxProviderWrapperProps?: Partial<
            Omit<React.ComponentProps<typeof ParallaxProviderWrapper>, "children">>;
 antdConfigProviderProps?: Partial<
@@ -34,7 +32,6 @@ embedCssProps?: Partial<
       
       const {
         children,
-        scrollProviderProps,
 parallaxProviderWrapperProps,
 antdConfigProviderProps,
 cmsCredentialsProviderProps,
@@ -43,10 +40,7 @@ embedCssProps
 
       
       return (
-      <CompS4W0QdYEtLMe
-      {...scrollProviderProps}
-      
-      >
+     
         
       <ParallaxProviderWrapper
       {...parallaxProviderWrapperProps}
@@ -94,7 +88,6 @@ locale={(cmsCredentialsProviderProps && "locale" in cmsCredentialsProviderProps)
     
       </ParallaxProviderWrapper>
     
-      </CompS4W0QdYEtLMe>
     )
     }
   
