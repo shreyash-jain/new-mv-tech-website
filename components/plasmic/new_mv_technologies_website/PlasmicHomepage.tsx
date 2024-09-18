@@ -62,7 +62,6 @@ import * as plasmicAuth from "@plasmicapp/react-web/lib/auth";
 import { usePlasmicDataSourceContext } from "@plasmicapp/data-sources-context";
 
 import Button2 from "../../Button2"; // plasmic-import: iFFcBUnvZUl0/component
-import { ParallaxWrapper } from "@plasmicpkgs/react-scroll-parallax";
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 import Tab from "../../Tab"; // plasmic-import: jf_z6wjG7bBo/component
@@ -128,7 +127,6 @@ export type PlasmicHomepage__OverridesType = {
   heroSection?: Flex__<"div">;
   span?: Flex__<"span">;
   button2?: Flex__<typeof Button2>;
-  scrollParallax?: Flex__<typeof ParallaxWrapper>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
   ourServicesSection?: Flex__<"section">;
   ourServices?: Flex__<"div">;
@@ -424,240 +422,225 @@ function PlasmicHomepage__RenderFunc(props: {
                   </Stack__>
                 </Stack__>
               </Stack__>
-              <ParallaxWrapper
-                data-plasmic-name={"scrollParallax"}
-                data-plasmic-override={overrides.scrollParallax}
-                className={classNames("__wab_instance", sty.scrollParallax)}
-                disabled={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? true
-                    : undefined
-                }
-                speed={20}
-              >
-                <div className={classNames(projectcss.all, sty.freeBox__qsaeW)}>
-                  {(() => {
-                    const child$Props = {
-                      arrows: false,
-                      autoplay: true,
-                      autoplaySpeed: 5000,
-                      beforeChange: generateStateOnChangePropForCodeComponents(
-                        $state,
-                        "currentSlide",
-                        ["sliderCarousel", "currentSlide"],
-                        SliderWrapper_Helpers
-                      ),
-                      centerMode: true,
-                      centerPadding: "0",
-                      className: classNames(
-                        "__wab_instance",
-                        sty.sliderCarousel
-                      ),
-                      cssEase: "linear",
-                      dots: false,
-                      fade: true,
-                      initialSlide: generateStateValueProp($state, [
-                        "sliderCarousel",
-                        "currentSlide"
-                      ]),
-                      pauseOnDotsHover: false,
-                      pauseOnHover: false,
-                      ref: ref => {
-                        $refs["sliderCarousel"] = ref;
-                      },
-                      sliderScopeClassName: sty["sliderCarousel__slider"],
-                      speed: 1000,
-                      swipeToSlide: true,
-                      vertical: true
-                    };
-                    initializeCodeComponentStates(
+              <div className={classNames(projectcss.all, sty.freeBox__qsaeW)}>
+                {(() => {
+                  const child$Props = {
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    beforeChange: generateStateOnChangePropForCodeComponents(
                       $state,
-                      [
-                        {
-                          name: "currentSlide",
-                          plasmicStateName: "sliderCarousel.currentSlide"
-                        }
-                      ],
-                      [],
-                      SliderWrapper_Helpers ?? {},
-                      child$Props
-                    );
+                      "currentSlide",
+                      ["sliderCarousel", "currentSlide"],
+                      SliderWrapper_Helpers
+                    ),
+                    centerMode: true,
+                    centerPadding: "0",
+                    className: classNames("__wab_instance", sty.sliderCarousel),
+                    cssEase: "linear",
+                    dots: false,
+                    fade: true,
+                    initialSlide: generateStateValueProp($state, [
+                      "sliderCarousel",
+                      "currentSlide"
+                    ]),
+                    pauseOnDotsHover: false,
+                    pauseOnHover: false,
+                    ref: ref => {
+                      $refs["sliderCarousel"] = ref;
+                    },
+                    sliderScopeClassName: sty["sliderCarousel__slider"],
+                    speed: 1000,
+                    swipeToSlide: true,
+                    vertical: true
+                  };
+                  initializeCodeComponentStates(
+                    $state,
+                    [
+                      {
+                        name: "currentSlide",
+                        plasmicStateName: "sliderCarousel.currentSlide"
+                      }
+                    ],
+                    [],
+                    SliderWrapper_Helpers ?? {},
+                    child$Props
+                  );
 
-                    return (
-                      <SliderWrapper
-                        data-plasmic-name={"sliderCarousel"}
-                        data-plasmic-override={overrides.sliderCarousel}
-                        {...child$Props}
+                  return (
+                    <SliderWrapper
+                      data-plasmic-name={"sliderCarousel"}
+                      data-plasmic-override={overrides.sliderCarousel}
+                      {...child$Props}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__dsEeo
+                        )}
                       >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__dsEeo
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__hbNa)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_01LabourLinkMockupPng13.png",
-                              fullWidth: 6452,
-                              fullHeight: 6452,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__ni3R4
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__p3UcS)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_02HabuildMockupPng3.png",
-                              fullWidth: 6452,
-                              fullHeight: 6452,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__jwmce
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img___7Bkh6)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_03SatvaOneMockupPng6.png",
-                              fullWidth: 6452,
-                              fullHeight: 6452,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__w2E9C
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__gMgU)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_04MaroiBoerderyMockupPng5.png",
-                              fullWidth: 6452,
-                              fullHeight: 6452,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__ddcPi
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__ovmM)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_05InnowellMockupPng4.png",
-                              fullWidth: 6452,
-                              fullHeight: 6452,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__dhxHr
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__r5Yvj)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_06DcmShriramMockupPng5.png",
-                              fullWidth: 6400,
-                              fullHeight: 6400,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__rwyAe
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__nnuxf)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"550px"}
-                            src={{
-                              src: "/plasmic/new_mv_technologies_website/images/_07StarBazaarMockupPng4.png",
-                              fullWidth: 6400,
-                              fullHeight: 6400,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                      </SliderWrapper>
-                    );
-                  })()}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__l17G)}
-                  />
-                </div>
-              </ParallaxWrapper>
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__hbNa)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_01LabourLinkMockupPng13.png",
+                            fullWidth: 6452,
+                            fullHeight: 6452,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ni3R4
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__p3UcS)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_02HabuildMockupPng3.png",
+                            fullWidth: 6452,
+                            fullHeight: 6452,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__jwmce
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img___7Bkh6)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_03SatvaOneMockupPng6.png",
+                            fullWidth: 6452,
+                            fullHeight: 6452,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__w2E9C
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__gMgU)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_04MaroiBoerderyMockupPng5.png",
+                            fullWidth: 6452,
+                            fullHeight: 6452,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ddcPi
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__ovmM)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_05InnowellMockupPng4.png",
+                            fullWidth: 6452,
+                            fullHeight: 6452,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__dhxHr
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__r5Yvj)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_06DcmShriramMockupPng5.png",
+                            fullWidth: 6400,
+                            fullHeight: 6400,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__rwyAe
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__nnuxf)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"550px"}
+                          src={{
+                            src: "/plasmic/new_mv_technologies_website/images/_07StarBazaarMockupPng4.png",
+                            fullWidth: 6400,
+                            fullHeight: 6400,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                    </SliderWrapper>
+                  );
+                })()}
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__l17G)}
+                />
+              </div>
             </Stack__>
           </div>
           <Stack__
@@ -1814,7 +1797,6 @@ const PlasmicDescendants = {
     "heroSection",
     "span",
     "button2",
-    "scrollParallax",
     "sliderCarousel",
     "ourServicesSection",
     "ourServices",
@@ -1852,16 +1834,9 @@ const PlasmicDescendants = {
     "navHeader",
     "navHeader2"
   ],
-  heroSection: [
-    "heroSection",
-    "span",
-    "button2",
-    "scrollParallax",
-    "sliderCarousel"
-  ],
+  heroSection: ["heroSection", "span", "button2", "sliderCarousel"],
   span: ["span"],
   button2: ["button2"],
-  scrollParallax: ["scrollParallax", "sliderCarousel"],
   sliderCarousel: ["sliderCarousel"],
   ourServicesSection: [
     "ourServicesSection",
@@ -1976,7 +1951,6 @@ type NodeDefaultElementType = {
   heroSection: "div";
   span: "span";
   button2: typeof Button2;
-  scrollParallax: typeof ParallaxWrapper;
   sliderCarousel: typeof SliderWrapper;
   ourServicesSection: "section";
   ourServices: "div";
@@ -2103,7 +2077,6 @@ export const PlasmicHomepage = Object.assign(
     heroSection: makeNodeComponent("heroSection"),
     span: makeNodeComponent("span"),
     button2: makeNodeComponent("button2"),
-    scrollParallax: makeNodeComponent("scrollParallax"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
     ourServicesSection: makeNodeComponent("ourServicesSection"),
     ourServices: makeNodeComponent("ourServices"),
