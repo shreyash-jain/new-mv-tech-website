@@ -428,6 +428,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-name={"scrollParallax"}
                 data-plasmic-override={overrides.scrollParallax}
                 className={classNames("__wab_instance", sty.scrollParallax)}
+                disabled={
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : undefined
+                }
                 speed={20}
               >
                 <div className={classNames(projectcss.all, sty.freeBox__qsaeW)}>
